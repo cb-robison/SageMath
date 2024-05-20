@@ -6,8 +6,7 @@ def isreal(num):
     if (imag_part(num) == 0):
         real = True
     return real
-︡621a8299-ece7-48a8-b2c0-482d2d32b8fe︡{"stdout": "", "done": true}︡
-︠fde80b0e-9474-49c3-86ae-a44d0a3429e6︠
+
 def critical_points(f):
     f(x,y) = f
     dx = diff(f,x)
@@ -24,7 +23,7 @@ def critical_points(f):
     L = list(set(L))
     L.sort()
     return L
-︡
+
 def second_derivs_test(f, x0, y0):
     d2x(x,y) = diff(f,x,2)
     d2y(x,y) = diff(f,y,2)
@@ -40,7 +39,7 @@ def second_derivs_test(f, x0, y0):
         else:
             result = 'max'
     return result
-︡
+
 def plot_critical_points(f):
     # Return a 3-dimensional plot with the following:
     # * f(x,y) in the default color
